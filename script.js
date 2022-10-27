@@ -8,17 +8,18 @@ formgroup.setAttribute("class","form-group");
 
 //headingtag
 
-let h1=document.createElement("h3")
+let h1=document.createElement("h1")
 h1.style.fontFamily="Rockwell"
 h1.style.fontWeight="530"
 h1.style.textShadow="2px 2px 5px LightCyan"
+h1.style.transition=" 2s, 4s"
 h1.innerHTML="NATIONALITY PREDICTOR"
 
 //p tag for title description
 let des=document.createElement("p")
 des.innerHTML="Enter the name to search the Nationality";
 des.style.textAlign="center";
-des.style.fontSize="10px"
+des.style.fontSize="15px"
 
 
 //input tag
@@ -37,7 +38,7 @@ let button=document.createElement("button");
 button.setAttribute("type","button");
 button.classList.add("btn","btn-success");
 button.innerHTML="Search";
-button.style.marginLeft="110px";
+button.style.marginLeft="190px";
 button.style.alignItems="center"
 button.style.marginTop="15px";
 button.style.marginBottom="5px";
