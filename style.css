@@ -4,6 +4,7 @@ body{
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  
  
 }
 
@@ -17,11 +18,23 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
+button{
+
+  transition: width 2s, height 4s;
+}  
+
+button:hover{
+  width: 80px;
+  
+}
+
+
 #countryname{
   margin:8px;
-  font-family: cursive;
+  font-family:BIZ UDMincho Medium;
+  font-weight: bold;
   color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+  text-shadow: 2px 2px 7px rgb(78, 44, 44);
 
  
  
@@ -29,19 +42,21 @@ h1{
 
 #probabilityvalue{
   margin:8px;
-  font-family: cursive;
+  font-family:BIZ UDMincho Medium;
+  font-weight: bold;
   color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+  text-shadow: 2px 2px 7px rgb(78, 44, 44);
 }
 
 #name{
   margin:8px;
-  font-family: cursive;
+  font-family: BIZ UDMincho Medium;
+  font-weight: bold;
   color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+  text-shadow: 2px 2px 7px rgb(78, 44, 44);
 }
 
 mark{
-  background-color: yellow;
-  color:chartreuse;
+  background-color: rgb(66, 194, 208);
+  color:rgb(14, 18, 10);
 }
