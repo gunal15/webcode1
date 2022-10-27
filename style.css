@@ -1,0 +1,47 @@
+body{
+  background-image: linear-gradient(to left, #fdb59a, #ffba8f, #ffc084, #fcc879, #f4d171, #f0d774, #ebdd79, #e6e37e, #e8e78c, #ebeb9a, #edeea8, #f0f2b5);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+ 
+}
+
+.main1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+#countryname{
+  margin:8px;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+
+ 
+ 
+}
+
+#probabilityvalue{
+  margin:8px;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+}
+
+#name{
+  margin:8px;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(78, 44, 44);
+}
+
+mark{
+  background-color: yellow;
+  color:chartreuse;
+}
